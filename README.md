@@ -215,7 +215,7 @@ When you run with `--daemon-mode false`, the process tree looks like this:
         '/release/1/server.js' to '/release/2/server.js'. You have to create
         a symlink and pass the full symlink path to naught start
         '/current/server.js'. After creating the symlink naught starts the
-        correct script, but the cwd is still old and require loads files from
+        correct script, but the cwd is still old and require loads files
         from the old directory. The cwd option allows you to update the cwd
         to the new directory. It defaults to naught's cwd.
     
